@@ -1,0 +1,79 @@
+body {
+  background-color: #F3E9DD;
+}
+p {
+  font-weight: bolder;
+  font-size: 1.1rem;
+  font-family: 'Work Sans', sans-serif;
+  color: #16697A;
+}
+header {
+  margin: 1% 10% 5% 10%;
+}
+h1 {
+  color: #A239EA;
+  margin: 1%;
+  font-size: 5rem;
+  margin: 30px auto 0;
+  text-align: left;
+  font-family: 'Square Peg', cursive
+}
+h2 {
+  font-weight: bolder;
+  margin: 1%;
+  color: #A239EA;
+  font-size: 5rem;
+  text-align: right;
+  font-family: 'Square Peg', cursive
+}
+.cat-one {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 5% 5% 5% 5%;
+  background-color: #D5DBB3;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+@media only screen and (max-width: 700px) {
+  .cat-one {
+    display: inline;
+  }
+}
+.cat-two {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 5% 5% 5% 5%;
+  background-color: #D5DBB3;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+@media only screen and (max-width: 700px) {
+  .cat-two {
+    display: inline;
+  }
+}
+.profile-img1 {
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  width: 70%;
+  border-radius: 15%;
+  margin: 5%;
+  padding: 3%;
+}
+@media only screen and (max-width: 700px) {
+  .profile-img1 {
+    margin: 12%;
+  }
+}
+.profile-img2 {
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  border-radius: 15%;
+  margin: 5%;
+  padding: 3%;
+}
+.apie {
+  margin: 20%;
+  font-size: 2rem;
+  font-family: 'Varela Round', sans-serif;
+}
+footer {
+  text-align: center;
+}
